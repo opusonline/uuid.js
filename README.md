@@ -19,7 +19,7 @@ uuid()
 
 ##Methods
 
-###`create`
+###create
 
 Same as uuid().
 
@@ -27,7 +27,7 @@ Same as uuid().
 var id = uuid.create();
 ```
 
-###`createBinary`
+###createBinary
 
 Return a v4 UUID as Uint8Array, Buffer or Array.
 
@@ -36,7 +36,7 @@ var bytes = uuid.createBinary();
 // e.g. [110, 230, 92, 240, 79, 220, 77, 51, 183, 141, 208, 158, 18, 148, 216, 15]
 ```
 
-###`parse`
+###parse
 
 Parses a v4 UUID from string to binary
 
@@ -45,7 +45,7 @@ var bytes = uuid.parse('6ee65cf0-4fdc-4d33-b78d-d09e1294d80f');
 // gives [110, 230, 92, 240, 79, 220, 77, 51, 183, 141, 208, 158, 18, 148, 216, 15]
 ```
 
-###`parseBinary`
+###parseBinary
 
 Parses a v4 UUID from binary to string
 
