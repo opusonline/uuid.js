@@ -1,7 +1,7 @@
 uuid.js
 =======
 
-UUID version 4 generator and parser - string and binary
+Javascript UUID version 4 generator and parser - string and binary
 
 [Wikipedia UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29)
 
