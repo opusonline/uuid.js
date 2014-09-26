@@ -13,7 +13,7 @@ UUID version 4 generator and parser - string and binary
 Return a valid v4 UUID.
 
 ```javascript
-uuid()
+var id = uuid();
 // e.g "6ee65cf0-4fdc-4d33-b78d-d09e1294d80f"
 ```
 
