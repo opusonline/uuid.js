@@ -1,0 +1,21 @@
+{
+  "name": "uuid.js",
+  "version": "1.0.1",
+  "authors": [
+    "Stefan Benicke <stefan.benicke@gmail.com>"
+  ],
+  "description": "Javascript UUID version 4 generator and parser - string and binary",
+  "main": "uuid.js",
+  "ignore": [
+    "package.json"
+  ],
+  "keywords": [
+    "uuid",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opusonline/uuid.js.git"
+  },
+  "license": "MIT"
+}
