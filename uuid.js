@@ -3,7 +3,6 @@
  * author: Stefan Benicke <stefan.benicke@gmail.com>
  * version: 1.1
  * license: MIT
- * test
  */
 
 ;(function(global) {
