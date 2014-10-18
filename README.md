@@ -8,6 +8,11 @@ Javascript UUID version 4 generator and parser - string and binary
 * runs in browsers and node.js 
 * creates and parses uuids as string or binary
 
+#Install
+
+- Install with [Bower](http://bower.io): `bower install opusonline-uuid.js`.
+- Install with [npm](https://www.npmjs.org): `npm install opusonline-uuid.js`.
+
 #Usage
 
 Return a valid v4 UUID.
