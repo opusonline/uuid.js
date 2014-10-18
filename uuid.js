@@ -51,12 +51,12 @@
 		return result;
 	};
 
-	var BufferView = global.Buffer || global.Uint8Array || Array;
+	var BufferView = Buffer || global.Uint8Array || Array;
 
 	var _getRandomBytes;
-	if ( typeof global.require === 'function') {
+	if ( typeof require === 'function') {
 		_getRandomBytes = function() {
-			return global.require('crypto').randomBytes(16);
+			return require('crypto').randomBytes(16);
 		};
 	} else if (global.crypto && crypto.getRandomValues) {
 		_getRandomBytes = function() {
@@ -67,7 +67,7 @@
 		_getRandomBytes = function() {
 			var bytes = [];
 			for (var i = 0; i < 16; i++) {
-				bytes[i] = Math.random() * 16 | 0;
+				bytes[i] = (Math.random() * 256) | 0;
 			}
 			return bytes;
 		};
