@@ -2,6 +2,7 @@
  * UUID v4 generator and parser
  * author: Stefan Benicke <stefan.benicke@gmail.com>
  * version: 1.0.1
+ * url: https://github.com/opusonline/uuid.js
  * license: MIT
  */
 
