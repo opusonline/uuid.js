@@ -1,10 +1,10 @@
+[![npm](https://img.shields.io/npm/v/opusonline-uuid.js.svg?style=flat)](https://npmjs.org/package/opusonline-uuid.js)
+[![downloads](https://img.shields.io/npm/dm/opusonline-uuid.js.svg?style=flat)](https://npmjs.org/package/opusonline-uuid.js)
+
 uuid.js
 =======
 
 Javascript UUID version 4 generator and parser - string and binary
-
-[![npm](https://img.shields.io/npm/v/opusonline-uuid.js.svg?style=flat)](https://npmjs.org/package/opusonline-uuid.js)
-[![downloads](https://img.shields.io/npm/dm/opusonline-uuid.js.svg?style=flat)](https://npmjs.org/package/opusonline-uuid.js)
 
 [Wikipedia UUID](http://en.wikipedia.org/wiki/Universally_unique_identifier#Version_4_.28random.29)
 
