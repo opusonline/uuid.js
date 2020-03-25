@@ -11,54 +11,54 @@ Javascript UUID version 4 generator and parser - string and binary
 * runs in browsers and node.js 
 * creates and parses uuids as string or binary
 
-#Install
+# Install
 
 - Install with [Bower](http://bower.io): `bower install opusonline-uuid.js`.
 - Install with [npm](https://www.npmjs.org): `npm install opusonline-uuid.js`.
 
-#Usage
+# Usage
 
 Return a valid v4 UUID.
 
 ```javascript
-var id = uuid();
+let id = uuid();
 // e.g "6ee65cf0-4fdc-4d33-b78d-d09e1294d80f"
 ```
 
-##Methods
+## Methods
 
-###create
+### create
 
 Same as uuid().
 
 ```javascript
-var id = uuid.create();
+let id = uuid.create();
 ```
 
-###createBinary
+### createBinary
 
 Return a v4 UUID as Uint8Array, Buffer or Array.
 
 ```javascript
-var bytes = uuid.createBinary();
+let bytes = uuid.createBinary();
 // e.g. [110, 230, 92, 240, 79, 220, 77, 51, 183, 141, 208, 158, 18, 148, 216, 15]
 ```
 
-###parse
+### parse
 
 Parses a v4 UUID from string to binary
 
 ```javascript
-var bytes = uuid.parse('6ee65cf0-4fdc-4d33-b78d-d09e1294d80f');
+let bytes = uuid.parse('6ee65cf0-4fdc-4d33-b78d-d09e1294d80f');
 // gives [110, 230, 92, 240, 79, 220, 77, 51, 183, 141, 208, 158, 18, 148, 216, 15]
 ```
 
-###parseBinary
+### parseBinary
 
 Parses a v4 UUID from binary to string
 
 ```javascript
-var bytes = new Uint8Array([110, 230, 92, 240, 79, 220, 77, 51, 183, 141, 208, 158, 18, 148, 216, 15]);
-var id = uuid.parseBinary(bytes);
+let bytes = new Uint8Array([110, 230, 92, 240, 79, 220, 77, 51, 183, 141, 208, 158, 18, 148, 216, 15]);
+let id = uuid.parseBinary(bytes);
 // gives "6ee65cf0-4fdc-4d33-b78d-d09e1294d80f"
 ```
