@@ -13,7 +13,7 @@ Javascript UUID version 4 generator and parser - string and binary
 
 # Install
 
-- Install with [Bower](http://bower.io): `bower install opusonline-uuid.js`.
+- Install with [yarn](https://yarnpkg.com/): `yarn add opusonline-uuid.js`.
 - Install with [npm](https://www.npmjs.org): `npm install opusonline-uuid.js`.
 
 # Usage
